@@ -1,0 +1,98 @@
+body,td,th {font-family: "PingFang SC";background:#282828;} 
+*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0; padding:0; list-style:none;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+input{-webkit-user-select:auto;} 
+img{border:0}
+a{text-decoration:none}
+.bt_soll{position:relative;width:100%;height:auto;overflow:hidden}
+.bt_sbox{width:100%;overflow:hidden;}
+.bt_sbox ul{width:9999px;height:auto;overflow:hidden;position:absolute;top:0;left:0}
+.bt_sbox li{float:left;width:100%;height:auto;}
+.bt_sbox li img{width:100%;height:auto;}
+.bt_sbox li a{display:block;width:100%;height:auto;}
+.bt_bico{position:absolute;bottom:8px;-webkit-bottom:8px;-webkit-left:0;left:0;z-index:999;width:100%;height:5px; text-align:center}
+.bt_bico a{display:inline-block;width:5px;height:5px;margin:0 2px;background:rgba(0,0,0,0.3);text-indent:-1000px;border-radius:50%}
+.bt_bico a.on{background:#000}
+
+.one_ban{width:100%;height:auto;}
+.one_ban img{width:100%;height:auto;}
+#div_article{margin-top:10px;}
+.listcon{width:100%;overflow:hidden;margin-bottom:10px;background:#333333;}
+.topb img{width:100%}
+.txtbox{float:left;width:100%;padding:8px 3% 8px 3%;overflow:hidden}
+.txtbox dl{float:left;width:100%;padding-bottom:5px;}
+.txtbox dt{float:left;width:13%;height:0.275rem;}
+.txtbox dt img{width:0.275rem;height:0.275rem;border-radius:50%}
+.txtbox dd{width:87%;float:left;line-height:0.3rem;color:#dddddd;}
+.txtbox .name{float:left;font-size:0.15rem;color:#dddddd}
+.txtbox .tm{float:right;font-size:0.12rem;color:#888888}
+.txtbox dd a{color:#514da5;}
+.txtbox dd i{float:left;width:16%; margin:-14px 5px 0 0;}
+.txtbox dd i img{width:100%}
+.txtbox .txt{float:left;margin-top:0px;width:100%;line-height:0.24rem;font-size:0.15rem;word-break:break-all;display:-webkit-box;
+-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;color:#dddddd}
+.txtbox .txt i{display:inline-block;height:0.16rem;line-height:0.14rem;padding:0 5px;margin-right:8px;border-radius:2px;font-style:normal;color:#ffdf1b;border:1px #8b7a39 solid; font-size:0.12rem;
+-webkit-transform: translateY(-0.01rem);
+transform: translateY(-0.01rem);}
+.txtbox .txt .vip{background:#ffd842;color:#404040;border-color:#ffd842;}
+.titbox{float:left;width:100%;font-size:0.12rem;color:#8b7a39;padding-bottom:10px;}
+.titbox span{margin:0 10px 0 0px;}
+.titbox span:nth-child(1){margin:0 10px 0 10px;}
+.titbox span:last-child{display: inline-block;}
+.titbox span:last-child:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    float: right;
+    border: 0.05rem solid transparent;
+    border-left-color: #8b7a39;
+    -webkit-transform: translate3d(0.06rem,0.035rem,0);
+    -moz-transform: translate3d(0.06rem,0.035rem,0);
+    -ms-transform: translate3d(0.06rem,0.035rem,0);
+    -o-transform: translate3d(0.06rem,0.035rem,0);
+    transform: translate3d(0.06rem,0.035rem,0);
+}
+.txtbox label{color:#8b7a39;font-size:0.12rem;padding: 0 5px;}
+.txtbox .label .gg{padding:0px;}
+.onebox .bt_bico,.onebox .bt_sbox{display:none}
+.onebox .oneimg img{width:100%;height:1.2rem;}
+.bt_soll .oneimg{display:none}
+.onebox .oneimg{display:block}
+.ent_nav{color: #fff;background: #333333;height:0.95rem;}
+.ent_nav dl{float: left;text-align: center;margin-top:0.15rem;font-size: 0.14rem;color:#dddddd;}
+.ent_nav dl dt{margin-bottom: 5px;}
+.ent_nav dl img{width: 0.45rem;}
+
+
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+.txtbox dd{width:84%}
+} 
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+.txtbox dd{width:84%}
+}
+
+
+@media only screen and (min-width: 376px) and (max-width: 415px){
+    .bt_soll{height:138px;}
+    .bt_sbox ul{height:138px;}
+    .bt_sbox li{height:138px;}
+    .bt_sbox li img{height:138px;}
+}
+@media only screen and (min-width: 326px) and (max-width: 375px){
+    .bt_soll{height:125px;}
+    .bt_sbox ul{height:125px;}
+    .bt_sbox li{height:125px;}
+    .bt_sbox li img{height:125px;}
+}
+@media screen and (max-width:325px){
+    .bt_soll{height:107px;}
+    .bt_sbox ul{height:107px;}
+    .bt_sbox li{height:107px;}
+    .bt_sbox li img{height:107px;}
+}
+
+
+
+
+
+

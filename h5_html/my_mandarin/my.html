@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<title>我</title>
+		<link href="img/styles.css" rel="stylesheet" type="text/css">
+		<script>
+			function o() {
+				document.documentElement.style.fontSize = /*(document.documentElement.clientWidth > 640 ? 640 : document.documentElement.clientWidth) / 3.2*/100 + "px";
+			}
+			var e = null;
+			window.addEventListener("resize", function() {
+				clearTimeout(e), e = setTimeout(o, 300)
+			}, !1), o();
+		</script>
+	</head>
+	
+	<body>
+		<div class="usebox">
+			<img src="img/unent.png" alt="" id="usericon">
+			<p id="logintel">请登录</p>
+		</div>
+		<div class="money">
+			<span class="money_num">精彩币<i id="monney"></i></span>
+			<span class="add_money" id="recharge" style="display: none;">充值</span>
+		</div>
+		<div class="menulist">
+			<div class="menu">
+				<ul>
+					<li id="buy">
+						<span class="tt"><a href="#"><img src="img/1.png" alt="" class="img" /></a></span>
+						<span class="txt">我的购买</span>
+						<span class="rico"><a href="#"><img src="img/r_ico.png"></a></span>
+					</li>
+					<li id="mesasge">
+						<span class="tt"><img src="img/2.png" alt="" class="img" /></span>
+						<span class="txt">我的私信</span>
+						<span id="mymessagedot" class="messagereddot" style="display: none;"></span>
+						<span class="rico"><a href="#"><img src="img/r_ico.png"></a></span>
+						<span class="l_num" style="display: none;">2</span>
+					</li>
+					<li id="collection">
+						<span class="tt"><img src="img/3.png" alt="" class="img" /></span>
+						<span class="txt">我的收藏</span>
+						<span class="rico"><a href="#"><img src="img/r_ico.png"></a></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="menulist">
+			<div class="menu">
+				<ul>
+					<li id="onlineservice">
+						<span class="tt"><img src="img/4.png" alt="" class="img" /></span>
+						
+						<span class="txt">在线客服</span>
+						<span id="onlinedot" class="messagereddot" style="display: none;"></span>
+						<span class="rico"><a href="#"><img src="img/r_ico.png"></a></span>
+					</li>
+					<li id="help">
+						<span class="tt"><img src="img/5.png" alt="" class="img" /></span>
+						<span class="txt">客服与帮助</span>
+						<span class="rico"><a href="#"><img src="img/r_ico.png"></a></span>
+					</li>
+					<li id="setting">
+						<span class="tt"><img src="img/6.png" alt="" class="img" /></span>
+						<span class="txt">设置</span>
+						<span class="rico"><a href="#"><img src="img/r_ico.png"></a></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/layer.m/layer.js" ></script>
+		
+		<script type="text/javascript" src="js/mine.js?24" ></script>
+	</body>
+
+</html>

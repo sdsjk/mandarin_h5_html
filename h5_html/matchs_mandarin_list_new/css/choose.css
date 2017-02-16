@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei"; }
+
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  background: #313131; }
+
+ul {
+  width: 100%;
+  height: 100%;
+  font-size: 0.14rem;
+  list-style: none;
+  padding: 0 0.2rem; }
+  ul li {
+    width: 40%;
+    height: 0.37rem;
+    border: 1px solid #ffdf1b;
+    border-radius: 5px;
+    line-height: 0.37rem;
+    text-align: center;
+    float: left;
+    color: #ffdf1b;
+    margin: 0.2rem 5% 0 5%; }
+  ul .on {
+    background: #ffdf1b;
+    color: #313131; }
+
+.foot {
+  width: 100%;
+  height: 0.5rem;
+  background: #212121;
+  font-size: 0.14rem;
+  color: #aeaeae;
+  line-height: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  .foot .all {
+    float: left; }
+  .foot .chos-btn {
+    float: right; }
+  .foot .all-chos {
+    width: 0.18rem;
+    height: 0.18rem;
+    border: 1px solid #aeaeae;
+    border-radius: 888px;
+    display: inline-block;
+    margin: 0rem 0.05rem 0 0.1rem;
+    -webkit-transform: translateY(0.02rem);
+    -moz-transform: translateY(0.02rem);
+    -ms-transform: translateY(0.02rem);
+    -o-transform: translateY(0.02rem);
+    transform: translateY(0.02rem);
+    position: relative; }
+  .foot .chos-on {
+    background: #ffdf1b;
+    border-color: #ffdf1b; }
+    .foot .chos-on:after {
+      content: "";
+      width: 0.10rem;
+      height: 0.05rem;
+      display: inline-block;
+      border: 2px solid transparent;
+      border-left-color: #313131;
+      border-bottom-color: #313131;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -0.07rem;
+      margin-top: -0.06rem;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+  .foot .num-chos {
+    color: #ffdf1b;
+    font-weight: 600; }
+  .foot .chos-btn {
+    width: 0.5rem;
+    height: 0.3rem;
+    margin-top: 0.1rem;
+    background: #ffdf1b;
+    color: #313131;
+    line-height: 0.3rem;
+    text-align: center;
+    margin-right: 0.1rem;
+    border-radius: 5px; }

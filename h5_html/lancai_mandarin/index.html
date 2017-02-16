@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<title>篮彩</title>
+<link href="chuanguan/style.css?1" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/touchSlider.js"></script>
+<script type="text/javascript" src="js/common/timeUtil.js?10001"></script>
+<script>
+	function o() {
+		document.documentElement.style.fontSize = /*(document.documentElement.clientWidth > 640 ? 640 : document.documentElement.clientWidth) / 3.2*/100 + "px";
+	}
+	var e = null;
+	window.addEventListener("resize", function() {
+		clearTimeout(e), e = setTimeout(o, 300)
+	}, !1), o();
+</script>
+
+</head>
+
+<body id="b_content">
+
+		
+	<script type="text/javascript">
+		dlw ()
+		function dlw (){
+			var pdom = $('.ent_nav'), dl = pdom.find('dl'), lend = dl.length, winw = $(document).width();
+			dl.width(winw/lend)
+		}
+	</script>
+	<div id = 'div_article'>
+		
+		<!-- <div class="listcon">
+			<div class="txtbox">
+				<dl>
+					<dt>
+						<img src="chuanguan/top.jpg">
+					</dt>
+					<dd class="h38">
+						<span class="name">向日葵</span><span class="tm">今天 02:45</span>
+					</dd>
+				</dl>
+				<span class="txt"><i class="vip">VIP</i><i>篮球</i><label>1场比赛</label><label class="gg">|</label><label>四中玩法</label></span>
+				<span class="txt">2008年北京奥运会个人全年北京奥运会个人全能金牌年北京奥运会个人全能金牌年北京奥运会个人全能金牌能金牌，2008年北京奥运会个人全能金牌，欧锦赛全能冠军，世界葡萄赛全能冠军，世界葡萄赛全能冠军，世界葡萄</span>
+			</div>
+			<div class="titbox">
+				<span>欧洲杯</span><span>西班牙 vs 克罗地亚</span><span>今天 02:45</span>
+			</div>
+			    </div> -->
+	</div>
+	
+<script type="text/javascript" src="js/layer.m/layer.js"></script>	
+<script src="http://www.jingcaishuo.com/h5_html/moment.js"></script>
+<script src="../jcs_dialog/jcs_dialog.js"></script>
+<script src="js/list.js?173"></script>
+<script type="text/javascript">
+//var jcsApp = angular.module('jcsApp',[]);
+//jcsApp.config(function($httpProvider) {
+//});
+
+function jump(type,target){
+	if(type==0)return false;
+// 	1.文章详情页、2.老师主页、3.文章列表、4.H5页面
+	if(type==1){
+		if(app != undefined)app.openArticle(target);
+		return false;
+	}else if(type == 2){
+		if(app != undefined)app.openAuthor(target);
+		return false;
+	}else if(type == 3){
+		//不支持
+	}else {
+		return true;
+	}
+	return false;
+}
+</script>
+</body>
+</html>

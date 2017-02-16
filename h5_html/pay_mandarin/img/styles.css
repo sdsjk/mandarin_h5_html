@@ -1,0 +1,46 @@
+body,td,th {font-family: "PingFang SC";background:#282828} 
+*{margin:0; padding:0; list-style:none;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+input{-webkit-user-select:auto;} 
+img{border:0}
+a{text-decoration:none}
+
+/* 个人中心 */
+
+.usebox{height:120px;float:left;width:94%;padding:3%;background:url('hb.png') no-repeat;background-size:cover;text-align: center;}
+.usebox h4{font-size: 15px;color: #dddddd;font-weight: normal;margin-top:10px;}
+.usebox p{color: #888888;padding-top: 10px;font-size:12px;}
+.usebox p span{color:#ffd842;font-size:32px;padding:0 5px;}
+.userico{float:left;width:50px;height:50px}
+.userico img{width:50px;height:50px;border-radius:50%}
+.regbox{float:left;height:24px;line-height:24px;padding:0 5px;margin:15px 0 0 15px;font-size:.875em;color:#ff8200;border:1px #ff8200 solid; border-radius:4px; overflow:hidden}
+.regbox a{color:#ff8200}
+.loginbox{float:left;width:50%;}
+.loginbox ul li{float:left;width:100%;line-height:16px;margin:6px 0 0 10px;font-size:.875em;color:#fff}
+.loginbox .num{color:#ffdf1b}
+.recharge{float:right;height:22px;line-height:22px;padding:0 10px;margin-top:15px;background:#ffdf1b;border-radius:4px; font-size:.813em;}
+.recharge a{display:block;color:#371910}
+.menulist{float:left;width:100%; background:#333333;}
+.menu{float:left;width:97%; margin-left:3%;}
+.menu ul li{float:left;width:100%; height:50px; line-height:50px;border-bottom:1px #464646 solid;font-size: 15px;}
+.menu ul li:last-child{border:none;}
+.th{position: absolute;right:0;top:-7px;width:60px;height:17px;}
+.li1{position: relative;}
+.p{color: #c6c6c6;background: #282828;float:left;width:96%; height:50px; line-height:50px;font-size: 1em;padding-left: 3%;}
+.menu .txt{float:left;font-size:15px;color:#dddddd}
+.menu .rico{float:right;width:5%;}
+.menu .rico img{width:42%}
+.img{width:32px;height:32px;float: left;padding-top: 10px;padding-right: 8px;}
+.balance{color:#ffdf1b;font-size: 12px;padding-left:0.5em;float:right;padding-right: 20px}
+.balance i{font-size: 1em;}
+.hint{color: #c6c6c6;position: absolute;bottom: 2.8em;text-align: center;width: 100%;font-size: 0.9em;}
+.service{color:#ffdf1b;}
+.sm{height:3em;float:left;line-height:18px;padding: 0 3%;color:#999999;font-size:0.725em;-webkit-transform:translateY(12px);-moz-transform:translateY(12px);-ms-transform:translateY(12px);-o-transform:translateY(12px);transform:translateY(12px);}
+.sm span{color:#1e8665;}
+i{font-style: normal;}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+.txtbox dd{width:84%}
+} 
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+.txtbox dd{width:84%}
+}

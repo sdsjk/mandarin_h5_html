@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<META HTTP-EQUIV="Refresh" content="1800">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<script type="text/javascript">
+			function o() {
+				if(document.documentElement.clientWidth > 414){
+					document.documentElement.style.fontSize = (document.documentElement.clientWidth > 640 ? 640 : document.documentElement.clientWidth) / 4 + "px";
+				}else{
+					document.documentElement.style.fontSize = (document.documentElement.clientWidth > 640 ? 640 : document.documentElement.clientWidth) / 3.2 + "px";
+				}
+			}
+
+			var e = null;
+			window.addEventListener("resize", function() {
+				clearTimeout(e), e = setTimeout(o, 300)
+			}, !1), o();
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<title>赛事</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="hd">
+				<span class="analyze" id="analyze"><i class="j f_on">荐</i>/<i class="q">全</i></span>
+				<p>
+					<span class="bo h-on" id="football">足球</span><span class="fo" id="basketball">篮球</span>
+				</p>
+				<span class="search"></span>
+			</div>
+			<div class="tab">
+				<ul>
+					<li>
+						12月01日
+					</li>
+					<li class="on">
+						12月02日
+					</li>
+					<li>
+						12月03日
+					</li>
+				</ul>
+				<span class="remo"></span>
+			</div>
+			<div class="null"></div>
+			<div class="wrap">
+				<div class="wrapinner">
+
+				</div>
+			</div>
+
+		</div>
+
+		</div>
+		<div class="choose hide">
+			<div class="c-hd">
+				<span class="back"></span>
+				<h1 id="ballname">足球赛事筛选</h1>
+			</div>
+			<div class="f_wrap">
+				<ul class="label">
+					<li>
+						一家超级联赛(3)
+					</li>
+					<li>
+						一家超级联赛(3)
+					</li>
+					<li>
+						一家超级联赛(3)
+					</li>
+				</ul>
+				<div class="foot">
+					<p class="all">
+						<span class="all-chos"></span>全选&nbsp&nbsp&nbsp&nbsp已选择 <span class="num-chos">3</span>&nbsp场
+					</p>
+					<p class="chos-btn" id="sure">
+						确定
+					</p>
+				</div>
+			</div>
+			
+		</div>
+
+	</body>
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/layer.m/layer.js"></script>
+	<script type="text/javascript" src="js/slideMove.js?101"></script>
+	<script src="../jcs_dialog/jcs_dialog.js"></script>
+	<script type="text/javascript" src="js/index.js?1010"></script>
+	<script type="text/javascript">
+		var ua = navigator.userAgent.toLowerCase();	
+			if(/iphone|ipad|ipod/.test(ua)) {
+				$('.remo').addClass('flsh');
+				$('.hd').css('height','0.6rem');
+				$('.null').css('top','1rem');
+				$('.c-hd').css('height','0.6rem');
+				$('.analyze').css({'line-height': '0.73rem'});
+				$('.hd p').css({'top': '65%'});
+				$('.search').css({'margin': '0.22rem 0.06rem 0 0'});
+				$('.tab').css({'top':'0.6rem'});
+				$('.wrap').css({'top':'1.04rem'});
+				$('.c-hd').css({'line-height':'0.85rem'});
+				$('.back').css({'top':'65%'});
+				$('.f_wrap').css('top','0.6rem');
+				$('.analyze').css('padding-top','0.025rem');
+			}
+
+	</script>
+	
+</html>

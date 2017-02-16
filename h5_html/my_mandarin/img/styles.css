@@ -1,0 +1,53 @@
+body,td,th {font-family:Microsoft YaHei, Arial;background:#282828} 
+*{margin:0; padding:0; list-style:none;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+input{-webkit-user-select:auto;} 
+img{border:0}
+a{text-decoration:none}
+
+/* 个人中心 */
+
+.usebox{width:100%;background:#1da479;height:1.5rem;position: relative;}
+.usebox img{width: 0.6rem;height: 0.6rem;position: absolute;left:50%;top:50%;margin-left:-0.3rem;margin-top:-0.45rem; border-radius: 1em;}
+.usebox p{font-size: 0.15rem;color:#dddddd;text-align: center;padding-top:1rem;}
+.userico{float:left;width:0.5rem;height:0.5rem;}
+.userico img{width:0.5rem;height:0.5rem;border-radius:50%}
+.money{height:0.5rem;line-height:0.5rem;width:100%;font-size:0.14rem;color:#ddd;background: #333;}
+.money i{font-style: normal;font-size: 0.16rem;color:#ffd842;margin-left: 0.1rem;}
+.money .money_num{float: left;margin-left:0.22rem;}
+.money .add_money{float: right;width: .74rem;height: 0.24rem;background: #ffd842;line-height: 0.24rem;text-align: center;color:#282828;margin:0.13rem 0.15rem 0 0;border-radius: 2px}
+.menulist{float:left;width:100%; margin-top:10px; background:#333; overflow:hidden}
+.menu{float:left;width:97%; margin-left:3%;}
+.menu ul li{float:left;width:100%; height:0.4rem;line-height:0.4rem;border-bottom:1px #444444 solid;font-size: 0.16rem;color: #ddd;}
+.l_num{width: 0.18rem;height: 0.18rem;background: #f43531;color: #ffffff;line-height: 0.18rem;font-size:0.14rem;text-align: center;display: inline-block;border-radius: 50%;float: right;margin:0.1rem 0.1rem 0 0;}
+.menu .txt{float:left;font-size:15px;}
+.menu .rico{float:right;width:0.21rem;}
+.menu .rico img{width:42%}
+.img{width: 0.21rem;
+	position: absolute;
+	left:50%;top:50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	-moz-transform: translate3d(-50%,-50%,0);
+	-ms-transform: translate3d(-50%,-50%,0);
+	-o-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+.messagereddot{
+	width: 0.5em;
+    height: 0.5em;
+    background: red;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.tt{width:0.5rem;height: 100%;float: left;position: relative;}
+.tt{width:;}
+.menu ul li:nth-last-child(1){border-bottom:0 none}
+.tb{display:inline-block;width:0.28rem;height: 0.28rem;background:url('xb.png') no-repeat center center;float:left;background-position: 0;margin-top:8px;}
+.tb:nth-child(2){
+	color: #fff;
+	background-position: -20px 0;
+}
